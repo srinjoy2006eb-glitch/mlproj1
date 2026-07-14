@@ -1,11 +1,10 @@
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-catboost
-xgboost
 Flask
 gunicorn
-
-#-e .
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+dill
+catboost
+xgboost
