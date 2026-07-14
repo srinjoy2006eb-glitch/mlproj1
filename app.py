@@ -63,11 +63,11 @@ def predict_datapoint():
 
             print("After Prediction")
 
-            print(results)
+            print(prediction)
 
             return render_template(
                 "home.html",
-                results=results[0]
+                results=prediction
             )
 
         except Exception as e:
