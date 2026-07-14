@@ -58,6 +58,8 @@ def predict_datapoint():
             print("Mid Prediction")
 
             results = predict_pipeline.predict(pred_df)
+            prediction = round(float(results[0]), 2)
+
 
             print("After Prediction")
 
